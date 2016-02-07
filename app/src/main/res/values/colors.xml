@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff0099cc</color>
+    <color name="colorPrimaryDark">#00C1CC</color>
+    <color name="fab_color_pressed">#007787</color>
+    <color name="fab_color_shadow">#44000000</color>
+
+    <color name="btn_default_light_normal">#00000000</color>
+    <color name="btn_default_light_pressed">#40ffffff</color>
+    <color name="btn_send_normal">#02c754</color>
+    <color name="btn_send_pressed">#006633</color>
+    <color name="btn_default_shadow">#99000000</color>
+    <color name="btn_context_menu_normal">#ffffff</color>
+    <color name="btn_context_menu_pressed">#40000000</color>
+    <color name="btn_context_menu_text_red">#ffff0000</color>
+    <color name="colorAccent">#FFF</color>
+    <color name="sc_background">#ff000000</color>
+    <color name="sc_button_positive">#ff669900</color>
+    <color name="sc_button_neutral">#ff0099cc</color>
+    <color name="sc_button_negative">#ffcc0000</color>
+    <color name="black">#000</color>
+    <color name="orange">#FF6600</color>
+    <color name="dark_orange">#CC3300</color>
+    <color name="blue">#00F4FF</color>
+    <color name="dark_blue">#00C1CC</color>
+    <color name="white">#FFF</color>
+    <color name="dull_yellow">#DFE200</color>
+    <color name="sign_up_grey">#A0A0A0</color>
+    <color name="dull_purple">#876A96</color>
+    <color name="light_purple">#C59BDB</color>
+    <color name="dark_grey">#414344</color>
+    <color name="splash_button_shadow">#000000</color>
+    <color name="splash_button_body">#232323</color>
+    <color name="splash_button_body_inactive">#11232323</color>
+    <color name="splash_button_body_pressed">#969696</color>
+    <color name="splash_font">#3389c9</color>
+    <color name="disclaimer_color">#dededd</color>
+    <color name="text_field_background">#2d3131</color>
+    <color name="text_field_header">#898989</color>
+    <color name="transparent">#80000000</color>
+</resources>

@@ -1,0 +1,52 @@
+<resources>
+
+        <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+            <!-- Customize your theme here. -->
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorAccent">@color/colorAccent</item>
+        </style>
+        <style name="AppTheme.NoActionBar">
+            <item name="windowActionBar">false</item>
+        </style>
+        <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+        <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+        <style name="Widget.SimpleCamera.Button" parent="android:Widget.ImageButton">
+            <item name="android:layout_width">wrap_content</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:padding">@dimen/sc_button_padding</item>
+            <item name="android:layout_marginLeft">@dimen/sc_button_margin</item>
+            <item name="android:layout_marginRight">@dimen/sc_button_margin</item>
+        </style>
+
+        <style name="Widget.SimpleCamera.Button.TakePicture">
+            <item name="android:background">@anim/sc_rectangle_rounded_positive</item>
+            <item name="android:src">@drawable/sc_ic_camera</item>
+        </style>
+
+        <style name="Widget.SimpleCamera.Button.RecordVideo">
+            <item name="android:background">@anim/sc_rectangle_rounded_neutral</item>
+            <item name="android:src">@drawable/sc_ic_video</item>
+        </style>
+
+        <style name="Widget.SimpleCamera.Button.StopRecording">
+            <item name="android:background">@anim/sc_rectangle_rounded_negative</item>
+            <item name="android:src">@drawable/sc_ic_stop</item>
+        </style>
+
+        <style name="Widget.SimpleCamera.Button.SwitchCamera">
+            <item name="android:background">@anim/sc_rectangle_rounded_neutral</item>
+            <item name="android:src">@drawable/sc_ic_camera_switch</item>
+        </style>
+
+        <style name="Widget.SimpleCamera.Button.Reject">
+            <item name="android:background">@anim/sc_rectangle_rounded_negative</item>
+            <item name="android:src">@drawable/sc_ic_action_cancel</item>
+        </style>
+
+        <style name="Widget.SimpleCamera.Button.Accept">
+            <item name="android:background">@anim/sc_rectangle_rounded_positive</item>
+            <item name="android:src">@drawable/sc_ic_action_accept</item>
+        </style>
+
+    </resources>

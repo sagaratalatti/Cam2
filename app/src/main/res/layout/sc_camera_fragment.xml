@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sc_background">
+
+    <FrameLayout
+        android:id="@+id/sc_camera_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="16dp"
+        >
+
+        <ImageButton
+            android:id="@+id/sc_btn_flip_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?attr/scButtonSwitchCameraStyle"
+            android:src="@drawable/sc_ic_camera_switch"
+            />
+
+        <ImageButton
+            android:id="@+id/sc_btn_flash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?attr/scButtonRecordVideoStyle"
+            android:src="@drawable/btn_send_comment"/>
+
+        <ImageButton
+            android:id="@+id/sc_btn_take_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?attr/scButtonTakePictureStyle"
+            android:src="@drawable/sc_ic_camera"
+            />
+
+        <ImageButton
+            android:id="@+id/sc_btn_record_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?attr/scButtonRecordVideoStyle"
+            android:src="@drawable/sc_ic_video"
+            />
+
+        <ImageButton
+            android:id="@+id/sc_btn_stop_recording_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?attr/scButtonStopRecordingStyle"
+            android:src="@drawable/sc_ic_stop"/>
+
+    </LinearLayout>
+
+</FrameLayout>
